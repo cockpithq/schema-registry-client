@@ -23,6 +23,6 @@ jobs:
       - name: flake8
         run: pipenv run flake8
       - name: mypy
-        run: pipenv run mypy schema_registry
+        run: pipenv run mypy schema_registry_client
       - name: pytest
         run: pipenv run pytest
